@@ -1,5 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
-<notification-listener-service
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:description="@string/app_name"
-    android:notificationTypes="conversations|alerting" />
+<meta-data
+    android:name="android.service.notification.default_filter_types"
+    android:value="conversations|alerting" />
